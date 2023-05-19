@@ -17,9 +17,7 @@ from os.path import dirname, join, realpath
 from random import randint
 import herepy
 import matplotlib.pyplot as plt
-# import cv2
 import numpy as np
-import requests
 from bson import ObjectId
 from flask import (Flask, escape, jsonify, redirect, render_template, request,
                    session, url_for)
@@ -29,7 +27,6 @@ from werkzeug.utils import secure_filename
 import tensorflow as tf
 from tensorflow.keras import models
 from tensorflow.keras.models import Model
-import cv2
 from keras.preprocessing import image
 from keras_preprocessing.image import load_img,img_to_array
 import numpy as np
