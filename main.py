@@ -230,7 +230,7 @@ def history(email):
         del i["_id"]
         i["id"] = i["grievance_id"]
 
-        i["image_link"] = "http://"+ host+":5000" +i["image_link"][1:]
+        i["image_link"] = "https://ipd-backend-production.up.railway.app" +i["image_link"][1:]
     
     print(grievance_all,"ey")
     
